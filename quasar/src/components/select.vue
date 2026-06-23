@@ -14,7 +14,7 @@
         <div class="row" style="line-height: 32px" v-for="(itemRow, r) in itemRows" :key="r">
           <q-item
             clickable
-            dense
+            density="comfortable"
             :active="has(item)"
             class="col"
             v-for="(item, c) in itemRow"

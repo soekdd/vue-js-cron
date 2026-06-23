@@ -1,6 +1,6 @@
 <template>
   <div style="display: inline-block">
-    <v-row align="baseline" dense>
+    <v-row align="baseline" density="comfortable">
       <v-col v-if="period.prefix.value" class="flex-grow-0">{{ period.prefix.value }}</v-col>
       <v-col cols="auto">
         <custom-select

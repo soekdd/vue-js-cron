@@ -1,7 +1,7 @@
 <template>
   <div>
 
-        <v-toolbar dense class="elevation-0 bg-transparent">
+        <v-toolbar density="comfortable" class="elevation-0 bg-transparent">
             <v-toolbar-title class="pa-0 ma-0" v-if="title">{{title}}</v-toolbar-title>
 
             <v-spacer></v-spacer>
